@@ -1,5 +1,8 @@
 # lordofpomelo docker-compose
 
+## docker-hub
+[lordofpomelo](https://hub.docker.com/r/nextzeus/lordofpomelo/)
+
 # Dependenies
 - node@6.x
 - pomelo@2.2.5
@@ -23,12 +26,11 @@ Unable to locate package sysstat
 - apt-get update
 - apt-get install sysstat -y
 
-
-
 # Usage
 
 1. git clone
 2. at current project directory, just run docker-compose up
+3. open http://localhost:3001 and register a new use
 
 # TODO
 - use pm2
