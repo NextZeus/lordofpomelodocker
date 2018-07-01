@@ -20,8 +20,9 @@ services:
   
   lordofpomelo-app:
     build: .
-    command: npm start
-    links:
+    command: >
+      bash -c "pwd;cd /usr/src/app/game-server && pomelo start --daemon; cd /usr/src/app/web-server && node app.js; cd /usr/src/app"
+    depends_on:
       - db
     ports:
       - 3001:3001

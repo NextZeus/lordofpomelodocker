@@ -5,9 +5,10 @@
   "dependencies": {
     "connect": ">=0.0.1",
     "ejs": "0.8.3",
-    "everyauth": "0.3.0",
+    "everyauth": "^0.4.9",
     "express": "2.5.2",
     "generic-pool": "*",
+    "mime": "^1.5.0",
     "mysql": "*"
   }
 }

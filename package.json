@@ -4,7 +4,10 @@
   "description": "lordofpomelo docker-compose",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start ecosystem.config.js",
+    "pm2_start": "pm2 start ecosystem.config.js",
+    "start_web": "node web-server/app.js",
+    "start_game": "pomelo start game-server/app.js",
+    "start": "npm run start_web; npm run start_game",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -1,0 +1,64 @@
+Arguments: 
+  /Users/lixd/.nvm/versions/node/v8.8.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js install --ignore-engines
+
+PATH: 
+  /Users/lixd/.npm-packages/bin:/Users/lixd/.nvm/versions/node/v8.8.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/lixd/.npm-packages/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.8.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "lord_of_pomelo",
+    "version": "0.3.0",
+    "private": false,
+    "dependencies": {
+      "async": "^2.6.1",
+      "connect": "^3.6.6",
+      "crc": "^3.5.0",
+      "express": "^2.5.2",
+      "generic-pool": "^3.4.2",
+      "mime": "^1.5.0",
+      "mysql": "^2.15.0",
+      "node-zookeeper-client": "^0.2.0",
+      "pomelo": "~2.2.5",
+      "pomelo-aoi": "^0.3.34",
+      "pomelo-bt": "0.0.1",
+      "pomelo-collection": "^0.1.0",
+      "pomelo-logger": "^0.1.7",
+      "pomelo-masterha-plugin": "0.0.4",
+      "pomelo-monitor": "^0.3.7",
+      "pomelo-pathfinding": "^0.1.0",
+      "pomelo-sync-plugin": "0.0.1",
+      "socket.io": ">=0.9.6",
+      "socket.io-client": ">=0.9.6",
+      "underscore": "^1.5.2",
+      "webkit-devtools-agent": "0.1.2"
+    },
+    "devDependencies": {
+      "should": ">=0.0.1",
+      "mocha": ">=0.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find package "socket.io@1.7.2" required by "pomelo@~2.2.5" on the "npm" registry.
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at PackageRequest.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:36274:17)
+      at Generator.throw (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:111:13
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:188:7)

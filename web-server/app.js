@@ -48,6 +48,10 @@ app.post('/register', userC.register);
 //Init mysql
 mysql.init(app);
 
+if(!process.env.PORT){
+  process.env.PORT = 3001;
+}
+
 app.listen(process.env.PORT);
 
 // Uncaught exception handler

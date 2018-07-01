@@ -60,16 +60,16 @@ everyauth.google
   .redirectPath(oauth.redirectPath);
 
 //weibo oauth
-everyauth.weibo
-  .appId(oauth.weibo.appId)
-  .appSecret(oauth.weibo.appSecret)
-  .myHostname(oauth.hostname)
-  .findOrCreateUser(function (session, accessToken, accessTokExtra, weiboUserMetadata) {
-    var p = this.Promise();
-    findOrCreateUser(session, weiboUserMetadata.screen_name, 'weibo', p);
-    return p;
-  })
-  .redirectPath(oauth.redirectPath);
+// everyauth.weibo
+//   .appId(oauth.weibo.appId)
+//   .appSecret(oauth.weibo.appSecret)
+//   .myHostname(oauth.hostname)
+//   .findOrCreateUser(function (session, accessToken, accessTokExtra, weiboUserMetadata) {
+//     var p = this.Promise();
+//     findOrCreateUser(session, weiboUserMetadata.screen_name, 'weibo', p);
+//     return p;
+//   })
+//   .redirectPath(oauth.redirectPath);
 
 
 everyauth.everymodule.findUserById(function (req, id, callback) {
