@@ -30,7 +30,7 @@ Unable to locate package sysstat
 
 1. git clone
 2. at current project directory, just run docker-compose up
-3. open http://localhost:3001 and register a new use
+3. open http://localhost:3001 and register a new user
 
 # TODO
 - use pm2
