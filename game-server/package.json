@@ -22,7 +22,7 @@
     "pomelo-sync-plugin": "0.0.1",
     "socket.io": ">=0.9.6",
     "socket.io-client": ">=0.9.6",
-    "underscore": "^1.5.2",
+    "underscore": "^1.12.1",
     "webkit-devtools-agent": "0.1.2"
   },
   "devDependencies": {
