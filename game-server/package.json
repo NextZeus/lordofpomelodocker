@@ -3,7 +3,7 @@
   "version": "0.3.0",
   "private": false,
   "dependencies": {
-    "async": "^2.6.1",
+    "async": "^3.2.2",
     "connect": "^3.6.6",
     "crc": "^3.5.0",
     "express": "^2.5.2",
