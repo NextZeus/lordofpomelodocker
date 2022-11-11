@@ -27,6 +27,6 @@
   },
   "devDependencies": {
     "should": ">=0.0.1",
-    "mocha": ">=0.0.1"
+    "mocha": ">=10.1.0"
   }
 }
